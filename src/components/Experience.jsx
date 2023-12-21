@@ -20,7 +20,7 @@ const ExperienceCard = ({ experience }) => {
         color: "#fff",
       }}
       contentArrowStyle={{ borderRight: "7px solid  #232631" }}
-      date={experience.date}
+      date={experience.message}
       iconStyle={{ background: experience.iconBg }}
       icon={
         <div className="flex justify-center items-center w-full h-full">
@@ -34,11 +34,20 @@ const ExperienceCard = ({ experience }) => {
     >
       <div>
         <h3 className="text-white text-[24px] font-bold">{experience.title}</h3>
+        <a href={experience.link} target="_blank" rel="noopener noreferrer">
+          <p
+            className="text-secondary text-[16px] font-semibold"
+            style={{ margin: 0 }}
+          >
+            {experience.link}
+          </p>
+        </a>
         <p
           className="text-secondary text-[16px] font-semibold"
           style={{ margin: 0 }}
         >
-          {experience.company_name}
+          {/* {experience.company_name} */}
+          {experience.keywords}
         </p>
       </div>
 
