@@ -116,17 +116,18 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
+    title: "Web Development",
     company_name: "Starbucks",
     icon: starbucks,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Unveiling the Magic of RESTful APIs: A Beginner's Guide to the Six Key Constraints",
+      "Demystifying REST API Interactions: A Quick Guide for Tech Enthusiasts",
     ],
+    message: "Embark on a thrilling journey in the realm of Web Development",
+    link: "https://prabhaswebdevelopment.blogspot.com/",
+    keywords: ["# RESTful API"],
   },
   {
     title: "React Native Developer",
